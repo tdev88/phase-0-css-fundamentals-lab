@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 920px;
+  margin: auto;
+}
+
+.centre-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centre-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#details {
+  background: red;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
